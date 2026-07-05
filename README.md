@@ -109,6 +109,43 @@ The final model was selected based on:
 
 ---
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vaibhavbhatnagar697/Placement-Prediction-System
+```
+
+Move into the project folder:
+
+```bash
+cd PlacementPredictionSystem
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Running the Application
+
+Start the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+The application will be available at:
+
+```text
+http://localhost:8501
+```
+
+---
 
 ## Project Structure
 
@@ -119,6 +156,7 @@ PlacementPredictionSystem/
 ├── data.csv
 ├── placement_model.pkl
 ├── app.py
+├── requirements.txt
 └── README.md
 ```
 
